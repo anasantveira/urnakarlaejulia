@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bcb8b3;
+}
+
+
+.caixa1{
+    background-color: #d6d2cc;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.caixa2{
+    background-color: #d6d2cc;
+    width: 400px;
+    height: 600px;
+}
+
+
+.container{
+    display: flex;
+}
+.caixa2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botoes{
+    margin-top: 40px;
+    background-color: #706c67;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.botao{
+    width: 70px;
+    height: 70px;
+}
+
+input{
+    width: 70px;
+    height: 80px;
+    font-size: 60px;
+}
+
+.caixa1-interno{
+    margin-top: 150px;
+}
+
+h2{
+    text-align: center;
+}
+
+.JE{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 70px; 
+    width: 300px;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    background-color: #b5cbcd;
+}
+
+.teclas{
+    background-color: #706c67;
+    height: 60px;
+    width: 272px;
+    display: flex;
+    justify-content:center ;
+    gap: 2px;
+    padding-top: 7px ;
+
+
+}
+
+.botao1{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+.botao2{
+    background-color: orange;
+}
+
+.botao3{
+    background-color: green;
+}
